@@ -1,8 +1,20 @@
-table,table * {
+@font-face {
+    font-family: googleFont;
+    src: url(/font/Oswald-Light.ttf);
+}
+
+* {
+    font-family: googleFont;
+}
+
+table,
+table * {
     border: 1px solid black;
     border-spacing: 0;
 }
-td,th {
+
+td,
+th {
     padding: 5px;
     text-align: center;
 }
@@ -12,15 +24,10 @@ td,th {
 }
 
 header p {
-   text-align: center;
-   
+    text-align: center;
 }
-
 
 img {
     width: 200px;
     margin: auto;
 }
-
-
-
